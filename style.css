@@ -1,0 +1,242 @@
+body {
+    font-family: helvetica;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+/*HEADER*/
+
+.header {
+    display: block;
+    text-align: center;
+    max-width: 500px;
+}
+
+.top {
+    padding-bottom: 20px;
+}
+
+.logo {
+    display:inline-block;
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.title {
+    padding: 10px;
+}
+
+.titlehead {
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: #663366;
+    letter-spacing: -1px;
+}
+
+.titlesub {
+    font-family: helvetica;
+    font-size: 12px;
+    font-style: italic;
+    color: #6dbbe9;
+    line-height: 15px;
+}
+
+/*PROFILE*/
+
+.profile {
+    padding: 10px;
+}
+
+.profilepic {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.headline {
+    font-family: helvetica;
+}
+
+.headlinetext {
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+    color: #663366;
+    letter-spacing: -1px;
+}
+
+.paragraphtext {
+    font-family: helvetica;
+    font-size: 12px;
+    font-style: italic;
+    color: #6dbbe9;
+    line-height: 15px;
+}
+
+/*PROJECTS*/
+
+.titlepro {
+    padding: 5px;
+}
+
+.titleproject {
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: #663366;
+    padding: 20px;
+    letter-spacing: -1px;
+}
+
+.projects {
+    font-family: helvetica;
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.projectheadline {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    color: #663366;
+    letter-spacing: -1px;
+}
+
+.projectsub {
+    font-family: helvetica;
+    font-size: 12px;
+    font-style: italic;
+    color: #6dbbe9;
+    line-height: 15px;
+    padding: 2px;
+}
+
+.csmoms {
+    display: block;
+    text-align: center;
+    padding: 0 5px 0px 0;
+}
+
+.cskvp {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.csedcal {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+/*PROJECT IMAGES*/
+
+.csmomsimg {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.cskvpimg {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.csedcalimg {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.footerlinks {
+    display: inline-block;
+    font-family: helvetica;
+    padding-top: 10px;
+    text-align: center;
+    float: right;
+}
+
+.footerimg {
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    font-family: helvetica;
+    padding: 0 5px 0 5px;
+}
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define visible focus styles!
+:focus {
+    outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
