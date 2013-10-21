@@ -4,16 +4,27 @@ body {
     max-width: 500px;
 }
 
+.seperator {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(237,42,102,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
 /*HEADER*/
 
 .header {
     display: block;
     text-align: center;
     max-width: 500px;
+    background-color: #6cbbe8;
 }
 
 .top {
     padding-bottom: 20px;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -73,14 +84,17 @@ body {
     font-family: helvetica;
     font-size: 12px;
     font-style: italic;
-    color: #6dbbe9;
+    color: #ffffff;
     line-height: 15px;
 }
 
 /*PROJECTS*/
 
 .titlepro {
-    padding: 5px;
+    display:block;
+    position: relative;
+    top:30px;
+
 }
 
 .titleproject {
@@ -97,7 +111,7 @@ body {
     display: block;
     text-align: center;
     max-width: 500px;
-    padding: 10px;
+    padding:  10px;
 }
 
 .projectheadline {
@@ -121,7 +135,7 @@ body {
 .csmoms {
     display: block;
     text-align: center;
-    padding: 0 5px 0px 0;
+    padding: 0 3px 3px 0;
 }
 
 .cskvp {
@@ -142,21 +156,30 @@ body {
     display: inline-block;
     text-align: center;
     width: 300px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .cskvpimg {
     display: inline-block;
     text-align: center;
     width: 300px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .csedcalimg {
     display: inline-block;
     text-align: center;
     width: 300px;
-    padding: 10px;
+    padding: 5px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #6cbbe8;
+    display:block;
+    text-align: center;
+    padding: 5px;
 }
 
 .footerlinks {
@@ -165,12 +188,10 @@ body {
     font-weight: 400;
     padding-top: 10px;
     text-align: center;
-    float: right;
 }
 
 .footerimg {
     display: inline-block;
-    float: left;
     font-family: 'Rokkitt', serif;
     font-size: 13px;
     font-weight: 400;
